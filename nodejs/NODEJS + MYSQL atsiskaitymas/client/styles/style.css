@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+.bills-title {
+    text-align: center;
+}
+
+.login-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.reg-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.logo-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+}

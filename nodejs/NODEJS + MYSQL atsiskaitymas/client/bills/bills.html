@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="./bills.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logo-container">
+        <div class="container">
+            <img src="https://static.thenounproject.com/png/3390135-200.png" alt="splitter">
+        </div>
+        <div class="container">
+            <h1>BillSplitter</h1>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="bills-title">Group's bills:</h1>
+        <div id="billBox"></div>
+    </div>
+    <div class="reg-container">
+        <div class="bills-container">
+            <form>
+                <h2>Add bill</h2>
+                <label for="amount">Amount:</label>
+                <br>
+                <input type="number" name="amount" id="amount">
+                <br>
+                <label for="description">Description:</label>
+                <br>
+                <input type="text" name="description" id="description">
+                <div>
+                    <button type="submit">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
